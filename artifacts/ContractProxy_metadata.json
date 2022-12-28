@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "businessLogic",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "newContractAddress",
+						"type": "address"
+					}
+				],
+				"name": "update",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"upgradable_smart_contract.sol": "ContractProxy"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"upgradable_smart_contract.sol": {
+			"keccak256": "0x9cc67de0c88b366385e8fe9bec90c42f52f22d86afaf25bc8f3fdeaf1c698ef9",
+			"urls": [
+				"bzz-raw://06bbacb98167dbb103e5925503b70a97e69a7a541a815cbb6d2553c5e326168a",
+				"dweb:/ipfs/QmYZFCjayicYfGdpH249QvsLw9r5LXhgZEULJ5gmtc8Dzm"
+			]
+		}
+	},
+	"version": 1
+}
