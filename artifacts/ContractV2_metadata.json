@@ -26,7 +26,20 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "store",
+				"outputs": [
+					{
+						"internalType": "contract StorageContract",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -43,7 +56,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"upgradable_smart_contract.sol": "ContractV2"
+			"storage_contract.sol": "ContractV2"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -57,11 +70,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"upgradable_smart_contract.sol": {
-			"keccak256": "0x9cc67de0c88b366385e8fe9bec90c42f52f22d86afaf25bc8f3fdeaf1c698ef9",
+		"storage_contract.sol": {
+			"keccak256": "0x91b423092714aa1ad6969db64df4bc5214900b1936caf9c0e34ba9461b385a74",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://06bbacb98167dbb103e5925503b70a97e69a7a541a815cbb6d2553c5e326168a",
-				"dweb:/ipfs/QmYZFCjayicYfGdpH249QvsLw9r5LXhgZEULJ5gmtc8Dzm"
+				"bzz-raw://c38f7c9487d0709afb26edda9d804d4194ecfced2c346279a4f5652cbe6fd8a0",
+				"dweb:/ipfs/QmSRXfZcxfds8pQRPNsrsvaiBGMyxnoYjgsnb34YZQ3Ucw"
 			]
 		}
 	},
