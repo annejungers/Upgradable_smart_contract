@@ -4,21 +4,7 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [
-			{
-				"inputs": [],
-				"name": "businessLogic",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			}
-		],
+		"abi": [],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -32,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"voting_howest1.sol": "ContractInterface"
+			"voting_howest1.sol": "ContractIn"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -47,11 +33,11 @@
 	},
 	"sources": {
 		"voting_howest1.sol": {
-			"keccak256": "0xe109c4970bab42dd27658c9e3a0ae1ad678e8b3135e516e6bac277414cc53e84",
+			"keccak256": "0xb860d20c3551b231c3850a66f5e3991fea859850966532289a128ed5ab21ac45",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b9abdd7e3881b7ff727e212cc34875d4f46e78ed17fb2ca1ae0aed4d24fc478a",
-				"dweb:/ipfs/QmXErPwBwWUsRbKvx1qzaFgpa6Z5H6uvp1YGpc32wA4GJx"
+				"bzz-raw://6043360cc6a4ac5167fc9c193c3eb3c5bdcaf6f2add149282581984a1b6c0d43",
+				"dweb:/ipfs/QmVC8FRVHQS2qjcDccH56Ac9rDn46G4TewSZnENRaGhDv3"
 			]
 		}
 	},

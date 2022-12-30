@@ -6,23 +6,27 @@
 	"output": {
 		"abi": [
 			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
 				"inputs": [],
-				"name": "businessLogic",
+				"name": "currentContractAddress",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "address",
 						"name": "",
-						"type": "uint256"
+						"type": "address"
 					}
 				],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "newContractAddress",
+						"internalType": "address payable",
+						"name": "_newContractAddress",
 						"type": "address"
 					}
 				],
@@ -45,7 +49,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"voting_howest1.sol": "ContractProxy"
+			"voting_howest1.sol": "Proxy"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -60,11 +64,11 @@
 	},
 	"sources": {
 		"voting_howest1.sol": {
-			"keccak256": "0xe109c4970bab42dd27658c9e3a0ae1ad678e8b3135e516e6bac277414cc53e84",
+			"keccak256": "0x8c8bc3b92adfb545d627b3971c840c43f875459b660e1bea4d1adcb5cf86750d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b9abdd7e3881b7ff727e212cc34875d4f46e78ed17fb2ca1ae0aed4d24fc478a",
-				"dweb:/ipfs/QmXErPwBwWUsRbKvx1qzaFgpa6Z5H6uvp1YGpc32wA4GJx"
+				"bzz-raw://5fa1be0cc8285e685069d57214a611cc5c311c66e8d687fdbf0650e575053ecb",
+				"dweb:/ipfs/QmQRCeZwG41GhkkS8D1ekwaDPnTp2ysTRMfSzeHADX2vZz"
 			]
 		}
 	},

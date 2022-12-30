@@ -49,19 +49,6 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "proposal",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -72,6 +59,9 @@
 					"params": {
 						"newOwner": "address of new owner"
 					}
+				},
+				"constructor": {
+					"details": "Set contract deployer as owner"
 				}
 			},
 			"version": 1
@@ -84,7 +74,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"voting_howest1.sol": "StorageContract"
+			"voting_howest1.sol": "Owner"
 		},
 		"evmVersion": "london",
 		"libraries": {},
